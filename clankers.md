@@ -17,9 +17,9 @@ Automated tracking of all Clankers PR contributors.
 | albayrakburak55 | 9 | 2026-05-13 |
 | ChienNguyen23 | 8 | 2026-05-13 |
 | Mburdo | 7 | 2026-05-13 |
+| callmekidz | 7 | 2026-05-13 |
 | ethever | 6 | 2026-05-13 |
 | TsukinowaRin | 6 | 2026-05-13 |
-| callmekidz | 6 | 2026-05-13 |
 | GopalaKrishnaVarshith | 5 | 2026-05-13 |
 | Homie4570 | 5 | 2026-05-13 |
 | masuda-so | 5 | 2026-05-13 |
