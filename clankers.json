@@ -396,6 +396,12 @@
     "last_pr": "2026-05-18T03:12:40.395Z"
   },
   {
+    "username": "mkcash",
+    "total_prs": 5,
+    "first_pr": "2026-05-16T16:30:52.575Z",
+    "last_pr": "2026-05-18T05:50:32.874Z"
+  },
+  {
     "username": "spqrcode",
     "total_prs": 4,
     "first_pr": "2026-05-14T12:12:04.319Z",
@@ -412,12 +418,6 @@
     "total_prs": 4,
     "first_pr": "2026-05-15T07:12:04.084Z",
     "last_pr": "2026-05-16T17:22:17.445Z"
-  },
-  {
-    "username": "mkcash",
-    "total_prs": 4,
-    "first_pr": "2026-05-16T16:30:52.575Z",
-    "last_pr": "2026-05-18T04:19:27.989Z"
   },
   {
     "username": "AidenPeerce",
