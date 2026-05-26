@@ -1026,6 +1026,12 @@
     "last_pr": "2026-05-26T03:07:48.298Z"
   },
   {
+    "username": "franklin52448-max",
+    "total_prs": 2,
+    "first_pr": "2026-05-26T20:59:30.794Z",
+    "last_pr": "2026-05-26T21:03:43.509Z"
+  },
+  {
     "username": "ErenCankutUYSAL",
     "total_prs": 1,
     "first_pr": "2026-05-13T19:25:27Z",
@@ -1438,11 +1444,5 @@
     "total_prs": 1,
     "first_pr": "2026-05-26T10:06:55.143Z",
     "last_pr": "2026-05-26T10:06:55.143Z"
-  },
-  {
-    "username": "franklin52448-max",
-    "total_prs": 1,
-    "first_pr": "2026-05-26T20:59:30.794Z",
-    "last_pr": "2026-05-26T20:59:30.794Z"
   }
 ]
