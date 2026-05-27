@@ -1050,6 +1050,12 @@
     "last_pr": "2026-05-27T01:56:32.797Z"
   },
   {
+    "username": "simisdav55-oss",
+    "total_prs": 2,
+    "first_pr": "2026-05-27T03:25:22.257Z",
+    "last_pr": "2026-05-27T03:29:16.214Z"
+  },
+  {
     "username": "ErenCankutUYSAL",
     "total_prs": 1,
     "first_pr": "2026-05-13T19:25:27Z",
@@ -1462,11 +1468,5 @@
     "total_prs": 1,
     "first_pr": "2026-05-27T02:54:42.905Z",
     "last_pr": "2026-05-27T02:54:42.905Z"
-  },
-  {
-    "username": "simisdav55-oss",
-    "total_prs": 1,
-    "first_pr": "2026-05-27T03:25:22.257Z",
-    "last_pr": "2026-05-27T03:25:22.257Z"
   }
 ]
