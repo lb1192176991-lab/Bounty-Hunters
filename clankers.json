@@ -60,6 +60,12 @@
     "last_pr": "2026-05-16T12:19:59.938Z"
   },
   {
+    "username": "oocheol",
+    "total_prs": 57,
+    "first_pr": "2026-05-18T08:53:21.999Z",
+    "last_pr": "2026-05-28T23:53:45.904Z"
+  },
+  {
     "username": "arthurus36-alt",
     "total_prs": 56,
     "first_pr": "2026-05-18T13:52:17.760Z",
@@ -70,12 +76,6 @@
     "total_prs": 55,
     "first_pr": "2026-05-13T06:47:51Z",
     "last_pr": "2026-05-17T14:08:03.577Z"
-  },
-  {
-    "username": "oocheol",
-    "total_prs": 55,
-    "first_pr": "2026-05-18T08:53:21.999Z",
-    "last_pr": "2026-05-28T08:00:13.792Z"
   },
   {
     "username": "lichen7567",
@@ -186,6 +186,12 @@
     "last_pr": "2026-05-21T06:47:36.509Z"
   },
   {
+    "username": "unsiqasik",
+    "total_prs": 24,
+    "first_pr": "2026-05-28T21:06:11.576Z",
+    "last_pr": "2026-05-29T00:01:41.087Z"
+  },
+  {
     "username": "Xiaoqiang-Huang",
     "total_prs": 23,
     "first_pr": "2026-05-15T17:11:10.002Z",
@@ -282,10 +288,10 @@
     "last_pr": "2026-05-21T22:20:05.506Z"
   },
   {
-    "username": "unsiqasik",
+    "username": "Davidrsdiaz",
     "total_prs": 15,
-    "first_pr": "2026-05-28T21:06:11.576Z",
-    "last_pr": "2026-05-28T22:14:49.884Z"
+    "first_pr": "2026-05-28T22:07:39.551Z",
+    "last_pr": "2026-05-28T23:57:01.053Z"
   },
   {
     "username": "callmekidz",
@@ -732,12 +738,6 @@
     "last_pr": "2026-05-27T02:17:30.464Z"
   },
   {
-    "username": "Davidrsdiaz",
-    "total_prs": 6,
-    "first_pr": "2026-05-28T22:07:39.551Z",
-    "last_pr": "2026-05-28T22:25:52.332Z"
-  },
-  {
     "username": "CuboYe",
     "total_prs": 6,
     "first_pr": "2026-05-15T21:11:20.255Z",
@@ -754,6 +754,12 @@
     "total_prs": 6,
     "first_pr": "2026-05-19T14:40:24.996Z",
     "last_pr": "2026-05-20T00:01:29.229Z"
+  },
+  {
+    "username": "jjb9707",
+    "total_prs": 6,
+    "first_pr": "2026-05-28T13:18:17.856Z",
+    "last_pr": "2026-05-28T22:57:10.675Z"
   },
   {
     "username": "FJ-CX",
@@ -948,6 +954,12 @@
     "last_pr": "2026-05-25T06:30:21.353Z"
   },
   {
+    "username": "JirA44",
+    "total_prs": 4,
+    "first_pr": "2026-05-28T11:39:37.698Z",
+    "last_pr": "2026-05-28T23:16:46.746Z"
+  },
+  {
     "username": "partyplatter08-lab",
     "total_prs": 4,
     "first_pr": "2026-05-16T13:20:39.129Z",
@@ -964,12 +976,6 @@
     "total_prs": 4,
     "first_pr": "2026-05-20T11:09:40.058Z",
     "last_pr": "2026-05-20T11:24:39.630Z"
-  },
-  {
-    "username": "jjb9707",
-    "total_prs": 4,
-    "first_pr": "2026-05-28T13:18:17.856Z",
-    "last_pr": "2026-05-28T18:39:29.681Z"
   },
   {
     "username": "AidenPeerce",
@@ -1132,12 +1138,6 @@
     "total_prs": 3,
     "first_pr": "2026-05-13T08:10:47Z",
     "last_pr": "2026-05-16T17:22:43.947Z"
-  },
-  {
-    "username": "JirA44",
-    "total_prs": 3,
-    "first_pr": "2026-05-28T11:39:37.698Z",
-    "last_pr": "2026-05-28T22:18:22.987Z"
   },
   {
     "username": "haisui157",
