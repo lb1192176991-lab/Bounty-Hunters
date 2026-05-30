@@ -12,16 +12,16 @@
     "last_pr": "2026-05-20T11:24:53.113Z"
   },
   {
+    "username": "JirA44",
+    "total_prs": 125,
+    "first_pr": "2026-05-28T11:39:37.698Z",
+    "last_pr": "2026-05-30T23:52:55.884Z"
+  },
+  {
     "username": "jynbil1",
     "total_prs": 123,
     "first_pr": "2026-05-13T07:05:45Z",
     "last_pr": "2026-05-16T02:26:07.904Z"
-  },
-  {
-    "username": "JirA44",
-    "total_prs": 113,
-    "first_pr": "2026-05-28T11:39:37.698Z",
-    "last_pr": "2026-05-30T21:53:27.826Z"
   },
   {
     "username": "lqkhanh295",
@@ -234,6 +234,12 @@
     "last_pr": "2026-05-13T16:14:26Z"
   },
   {
+    "username": "barnacleagent-svg",
+    "total_prs": 22,
+    "first_pr": "2026-05-30T07:09:25.857Z",
+    "last_pr": "2026-05-30T23:18:36.622Z"
+  },
+  {
     "username": "absalonCRC",
     "total_prs": 21,
     "first_pr": "2026-05-15T07:18:19.262Z",
@@ -274,12 +280,6 @@
     "total_prs": 19,
     "first_pr": "2026-05-28T22:07:39.551Z",
     "last_pr": "2026-05-29T01:09:03.806Z"
-  },
-  {
-    "username": "barnacleagent-svg",
-    "total_prs": 19,
-    "first_pr": "2026-05-30T07:09:25.857Z",
-    "last_pr": "2026-05-30T21:05:09.558Z"
   },
   {
     "username": "shengtenghou4-star",
@@ -930,6 +930,12 @@
     "last_pr": "2026-05-19T01:16:01.294Z"
   },
   {
+    "username": "soongyintong",
+    "total_prs": 5,
+    "first_pr": "2026-05-16T23:47:04.809Z",
+    "last_pr": "2026-05-30T23:50:02.782Z"
+  },
+  {
     "username": "bounty-bot-beep",
     "total_prs": 5,
     "first_pr": "2026-05-16T01:02:07.509Z",
@@ -1012,12 +1018,6 @@
     "total_prs": 4,
     "first_pr": "2026-05-29T21:26:07.879Z",
     "last_pr": "2026-05-29T21:30:34.671Z"
-  },
-  {
-    "username": "soongyintong",
-    "total_prs": 4,
-    "first_pr": "2026-05-16T23:47:04.809Z",
-    "last_pr": "2026-05-30T07:53:58.313Z"
   },
   {
     "username": "partyplatter08-lab",
@@ -2026,5 +2026,11 @@
     "total_prs": 1,
     "first_pr": "2026-05-28T15:39:10.599Z",
     "last_pr": "2026-05-28T15:39:10.599Z"
+  },
+  {
+    "username": "Klepsiphron",
+    "total_prs": 1,
+    "first_pr": "2026-05-30T23:46:56.687Z",
+    "last_pr": "2026-05-30T23:46:56.687Z"
   }
 ]
