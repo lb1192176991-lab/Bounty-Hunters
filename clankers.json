@@ -66,6 +66,12 @@
     "last_pr": "2026-05-16T12:19:59.938Z"
   },
   {
+    "username": "JirA44",
+    "total_prs": 61,
+    "first_pr": "2026-05-28T11:39:37.698Z",
+    "last_pr": "2026-05-30T12:57:26.530Z"
+  },
+  {
     "username": "oocheol",
     "total_prs": 57,
     "first_pr": "2026-05-18T08:53:21.999Z",
@@ -100,12 +106,6 @@
     "total_prs": 50,
     "first_pr": "2026-05-16T16:21:06.703Z",
     "last_pr": "2026-05-19T03:50:18.098Z"
-  },
-  {
-    "username": "JirA44",
-    "total_prs": 49,
-    "first_pr": "2026-05-28T11:39:37.698Z",
-    "last_pr": "2026-05-30T06:36:43.847Z"
   },
   {
     "username": "zp6",
@@ -162,6 +162,12 @@
     "last_pr": "2026-05-29T04:50:17.201Z"
   },
   {
+    "username": "bryantrinh",
+    "total_prs": 31,
+    "first_pr": "2026-05-29T04:04:49.758Z",
+    "last_pr": "2026-05-30T12:49:57.145Z"
+  },
+  {
     "username": "kpoxo6op",
     "total_prs": 30,
     "first_pr": "2026-05-23T04:44:46.420Z",
@@ -196,12 +202,6 @@
     "total_prs": 26,
     "first_pr": "2026-05-13T07:25:35Z",
     "last_pr": "2026-05-13T15:45:54Z"
-  },
-  {
-    "username": "bryantrinh",
-    "total_prs": 26,
-    "first_pr": "2026-05-29T04:04:49.758Z",
-    "last_pr": "2026-05-30T11:07:35.334Z"
   },
   {
     "username": "jjb9707",
@@ -1876,6 +1876,12 @@
     "total_prs": 1,
     "first_pr": "2026-05-30T08:53:28.051Z",
     "last_pr": "2026-05-30T08:53:28.051Z"
+  },
+  {
+    "username": "adityawrk",
+    "total_prs": 1,
+    "first_pr": "2026-05-30T12:25:53.193Z",
+    "last_pr": "2026-05-30T12:25:53.193Z"
   },
   {
     "username": "MichisGitIsKing",
