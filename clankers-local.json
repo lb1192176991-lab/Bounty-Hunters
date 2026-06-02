@@ -1230,6 +1230,12 @@
     "last_pr": "2026-05-30T05:58:55.915Z"
   },
   {
+    "username": "zxy0314-work",
+    "total_prs": 2,
+    "first_pr": "2026-06-02T14:56:05.339Z",
+    "last_pr": "2026-06-02T15:12:30.435Z"
+  },
+  {
     "username": "ErenCankutUYSAL",
     "total_prs": 1,
     "first_pr": "2026-05-13T19:25:27Z",
@@ -1750,11 +1756,5 @@
     "total_prs": 1,
     "first_pr": "2026-06-02T04:50:27.912Z",
     "last_pr": "2026-06-02T04:50:27.912Z"
-  },
-  {
-    "username": "zxy0314-work",
-    "total_prs": 1,
-    "first_pr": "2026-06-02T14:56:05.339Z",
-    "last_pr": "2026-06-02T14:56:05.339Z"
   }
 ]
