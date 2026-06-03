@@ -121,9 +121,9 @@
   },
   {
     "username": "szamaniai",
-    "total_prs": 43,
+    "total_prs": 45,
     "first_pr": "2026-05-15T22:35:37.279Z",
-    "last_pr": "2026-06-02T22:27:26.978Z"
+    "last_pr": "2026-06-03T05:06:02.362Z"
   },
   {
     "username": "zp6",
@@ -156,16 +156,16 @@
     "last_pr": "2026-05-16T04:23:02.954Z"
   },
   {
+    "username": "KK88100",
+    "total_prs": 36,
+    "first_pr": "2026-05-25T17:17:23.876Z",
+    "last_pr": "2026-06-03T02:13:12.842Z"
+  },
+  {
     "username": "korpo1337",
     "total_prs": 34,
     "first_pr": "2026-05-17T14:20:08.819Z",
     "last_pr": "2026-05-18T13:04:47.236Z"
-  },
-  {
-    "username": "KK88100",
-    "total_prs": 33,
-    "first_pr": "2026-05-25T17:17:23.876Z",
-    "last_pr": "2026-06-02T02:09:28.375Z"
   },
   {
     "username": "bryantrinh",
@@ -354,6 +354,12 @@
     "last_pr": "2026-05-30T06:35:28.997Z"
   },
   {
+    "username": "Jorel97",
+    "total_prs": 15,
+    "first_pr": "2026-05-29T11:24:15.035Z",
+    "last_pr": "2026-06-03T04:36:54.489Z"
+  },
+  {
     "username": "callmekidz",
     "total_prs": 14,
     "first_pr": "2026-05-13T19:54:10Z",
@@ -442,12 +448,6 @@
     "total_prs": 13,
     "first_pr": "2026-05-16T17:07:47.940Z",
     "last_pr": "2026-05-29T15:00:40.798Z"
-  },
-  {
-    "username": "Jorel97",
-    "total_prs": 13,
-    "first_pr": "2026-05-29T11:24:15.035Z",
-    "last_pr": "2026-06-01T09:11:46.159Z"
   },
   {
     "username": "dicnunz",
