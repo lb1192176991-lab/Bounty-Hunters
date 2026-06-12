@@ -26,7 +26,7 @@
         "README.md — Project overview and repository struture",
         "CONTRIBUTING.md — Pull request submission guidelines",
         "python/tls_handshake.py — TLS handshake implementation with known bugs",
-        "clankers.json — Database of tracked bot acounts and PR statistics",
+        "clankers.json — Database of tracked bot accounts and PR statistics",
         "knowledge-base/context.json — This file"
       ],
       "working_directory": "/Users/worker/projects/Bounty-Hunters",
