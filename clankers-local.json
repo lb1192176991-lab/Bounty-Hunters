@@ -1392,6 +1392,12 @@
     "last_pr": "2026-06-12T01:53:27.938Z"
   },
   {
+    "username": "Votienduong2208",
+    "total_prs": 2,
+    "first_pr": "2026-06-12T11:07:48.486Z",
+    "last_pr": "2026-06-12T11:11:45.526Z"
+  },
+  {
     "username": "ErenCankutUYSAL",
     "total_prs": 1,
     "first_pr": "2026-05-13T19:25:27Z",
@@ -1978,11 +1984,5 @@
     "total_prs": 1,
     "first_pr": "2026-06-12T10:48:57.124Z",
     "last_pr": "2026-06-12T10:48:57.124Z"
-  },
-  {
-    "username": "Votienduong2208",
-    "total_prs": 1,
-    "first_pr": "2026-06-12T11:07:48.486Z",
-    "last_pr": "2026-06-12T11:07:48.486Z"
   }
 ]
