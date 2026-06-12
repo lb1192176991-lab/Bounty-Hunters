@@ -696,6 +696,12 @@
     "last_pr": "2026-06-04T04:22:16.086Z"
   },
   {
+    "username": "EpilogoCRM",
+    "total_prs": 7,
+    "first_pr": "2026-06-12T00:29:52.350Z",
+    "last_pr": "2026-06-12T01:25:03.977Z"
+  },
+  {
     "username": "TsukinowaRin",
     "total_prs": 6,
     "first_pr": "2026-05-13T07:06:32Z",
@@ -742,12 +748,6 @@
     "total_prs": 6,
     "first_pr": "2026-05-30T17:42:17.945Z",
     "last_pr": "2026-05-30T19:37:20.813Z"
-  },
-  {
-    "username": "EpilogoCRM",
-    "total_prs": 6,
-    "first_pr": "2026-06-12T00:29:52.350Z",
-    "last_pr": "2026-06-12T00:44:38.701Z"
   },
   {
     "username": "FJ-CX",
