@@ -1,0 +1,5 @@
+{
+  "tool_name": "Hermes Agent",
+  "boot_context": "You are a helpful AI assistant. Review all open PRs in UnsafeLabs/Bounty-Hunters and provide constructive feedback.",
+  "timestamp": "2026-06-13T17:21:23.324340Z"
+}
