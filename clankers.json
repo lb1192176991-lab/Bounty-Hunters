@@ -366,6 +366,12 @@
     "last_pr": "2026-05-19T09:58:25.671Z"
   },
   {
+    "username": "nkar123412-hub",
+    "total_prs": 18,
+    "first_pr": "2026-06-11T09:40:46.657Z",
+    "last_pr": "2026-06-16T01:05:49.881Z"
+  },
+  {
     "username": "justusaugust",
     "total_prs": 17,
     "first_pr": "2026-05-25T06:26:55.284Z",
@@ -1110,12 +1116,6 @@
     "last_pr": "2026-06-02T07:33:16.776Z"
   },
   {
-    "username": "nkar123412-hub",
-    "total_prs": 5,
-    "first_pr": "2026-06-11T09:40:46.657Z",
-    "last_pr": "2026-06-15T23:34:35.898Z"
-  },
-  {
     "username": "Alex-2Code",
     "total_prs": 5,
     "first_pr": "2026-05-17T18:07:52.329Z",
@@ -1270,6 +1270,12 @@
     "total_prs": 4,
     "first_pr": "2026-06-04T06:03:24.988Z",
     "last_pr": "2026-06-04T15:45:23.288Z"
+  },
+  {
+    "username": "autodev-botbit",
+    "total_prs": 4,
+    "first_pr": "2026-06-16T02:18:22.189Z",
+    "last_pr": "2026-06-16T03:52:19.971Z"
   },
   {
     "username": "AidenPeerce",
