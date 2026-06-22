@@ -1074,6 +1074,12 @@
     "last_pr": "2026-06-22T08:05:48.284Z"
   },
   {
+    "username": "gtx20060124-bot",
+    "total_prs": 4,
+    "first_pr": "2026-06-22T05:22:48.826Z",
+    "last_pr": "2026-06-22T08:33:20.501Z"
+  },
+  {
     "username": "AidenPeerce",
     "total_prs": 3,
     "first_pr": "2026-05-13T13:22:13Z",
@@ -1300,12 +1306,6 @@
     "total_prs": 3,
     "first_pr": "2026-06-19T04:13:26.197Z",
     "last_pr": "2026-06-22T02:42:42.445Z"
-  },
-  {
-    "username": "gtx20060124-bot",
-    "total_prs": 3,
-    "first_pr": "2026-06-22T05:22:48.826Z",
-    "last_pr": "2026-06-22T08:22:05.880Z"
   },
   {
     "username": "Saumya-Verma123",
