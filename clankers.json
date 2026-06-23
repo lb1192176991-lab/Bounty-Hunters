@@ -18,6 +18,12 @@
     "last_pr": "2026-05-31T01:37:28.574Z"
   },
   {
+    "username": "gtx20060124-bot",
+    "total_prs": 141,
+    "first_pr": "2026-06-22T04:34:36.546Z",
+    "last_pr": "2026-06-23T21:11:12.291Z"
+  },
+  {
     "username": "elianguitarra",
     "total_prs": 136,
     "first_pr": "2026-06-06T17:09:39.107Z",
@@ -28,12 +34,6 @@
     "total_prs": 134,
     "first_pr": "2026-05-20T00:23:42.720Z",
     "last_pr": "2026-05-20T11:24:53.113Z"
-  },
-  {
-    "username": "gtx20060124-bot",
-    "total_prs": 125,
-    "first_pr": "2026-06-22T04:34:36.546Z",
-    "last_pr": "2026-06-23T18:56:30.321Z"
   },
   {
     "username": "jynbil1",
@@ -444,6 +444,12 @@
     "last_pr": "2026-06-03T13:50:13.670Z"
   },
   {
+    "username": "Shaidyk",
+    "total_prs": 15,
+    "first_pr": "2026-06-18T16:31:08.499Z",
+    "last_pr": "2026-06-23T21:12:24.502Z"
+  },
+  {
     "username": "callmekidz",
     "total_prs": 14,
     "first_pr": "2026-05-13T19:54:10Z",
@@ -676,12 +682,6 @@
     "total_prs": 10,
     "first_pr": "2026-06-13T00:25:33.621Z",
     "last_pr": "2026-06-13T04:36:27.396Z"
-  },
-  {
-    "username": "Shaidyk",
-    "total_prs": 10,
-    "first_pr": "2026-06-18T16:31:08.499Z",
-    "last_pr": "2026-06-23T12:59:05.945Z"
   },
   {
     "username": "gacorpoll-ui",
