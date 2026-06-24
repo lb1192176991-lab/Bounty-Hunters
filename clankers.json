@@ -13,9 +13,9 @@
   },
   {
     "username": "gtx20060124-bot",
-    "total_prs": 149,
+    "total_prs": 150,
     "first_pr": "2026-06-22T04:34:36.546Z",
-    "last_pr": "2026-06-23T22:53:45.952Z"
+    "last_pr": "2026-06-24T17:30:45.066Z"
   },
   {
     "username": "JirA44",
@@ -390,6 +390,12 @@
     "last_pr": "2026-06-04T18:54:39.540Z"
   },
   {
+    "username": "Shaidyk",
+    "total_prs": 18,
+    "first_pr": "2026-06-18T16:31:08.499Z",
+    "last_pr": "2026-06-24T18:08:03.643Z"
+  },
+  {
     "username": "GautamKumarOffical",
     "total_prs": 18,
     "first_pr": "2026-06-19T08:53:02.388Z",
@@ -406,12 +412,6 @@
     "total_prs": 17,
     "first_pr": "2026-05-25T06:26:55.284Z",
     "last_pr": "2026-05-25T12:24:52.811Z"
-  },
-  {
-    "username": "Shaidyk",
-    "total_prs": 17,
-    "first_pr": "2026-06-18T16:31:08.499Z",
-    "last_pr": "2026-06-24T08:37:27.074Z"
   },
   {
     "username": "s2530786-cell",
