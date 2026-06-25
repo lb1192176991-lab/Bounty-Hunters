@@ -1,0 +1,5 @@
+{
+  "tool": "Hermes Agent (Nous Research)",
+  "platform_config": "Create centralized error module at t3code/apps/server/src/errors.ts with Effect.Data.TaggedEnum error types (NetworkError, DatabaseError, AuthError, GitError, ConfigError, ValidationError), add errorToResponse and errorToLog helpers, add tests, migrate existing files, add .attribution.json",
+  "date": "2026-06-26T00:00:00Z"
+}
