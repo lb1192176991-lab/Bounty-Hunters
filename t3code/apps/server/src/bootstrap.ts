@@ -5,6 +5,7 @@ import * as readline from "node:readline";
 import type { Readable } from "node:stream";
 
 import * as Data from "effect/Data";
+import { ConfigError } from "./errors.ts";
 import * as Effect from "effect/Effect";
 import * as Option from "effect/Option";
 import * as Predicate from "effect/Predicate";
@@ -12,10 +13,7 @@ import * as Result from "effect/Result";
 import * as Schema from "effect/Schema";
 import { decodeJsonResult } from "@t3tools/shared/schemaJson";
 
-class BootstrapError extends Data.TaggedError("BootstrapError")<{
-  readonly message: string;
-  readonly cause?: unknown;
-}> {}
+class BootstrapError extends ConfigError {}
 
 export const readBootstrapEnvelope = Effect.fn("readBootstrapEnvelope")(function* <A, I>(
   schema: Schema.Codec<A, I>,
