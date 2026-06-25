@@ -25,3 +25,43 @@ describe("http dev routing", () => {
     );
   });
 });
+
+describe("request body size limiting", () => {
+  it("default max body size is 10 MB for regular routes", () => {
+    const { DEFAULT_MAX_BODY_SIZE, resolveMaxBodySize } = await import("./http.ts");
+    expect(DEFAULT_MAX_BODY_SIZE).toBe(10 * 1024 * 1024);
+    expect(resolveMaxBodySize("/api/auth/session")).toBe(DEFAULT_MAX_BODY_SIZE);
+    expect(resolveMaxBodySize("/api/orchestration/snapshot")).toBe(DEFAULT_MAX_BODY_SIZE);
+    expect(resolveMaxBodySize("/api/unknown/route")).toBe(DEFAULT_MAX_BODY_SIZE);
+    expect(resolveMaxBodySize("/")).toBe(DEFAULT_MAX_BODY_SIZE);
+  });
+
+  it("upload route max body size is 50 MB", () => {
+    const { DEFAULT_UPLOAD_MAX_BODY_SIZE, resolveMaxBodySize } = await import("./http.ts");
+    expect(DEFAULT_UPLOAD_MAX_BODY_SIZE).toBe(50 * 1024 * 1024);
+    expect(resolveMaxBodySize("/api/attachments/some-file.png")).toBe(DEFAULT_UPLOAD_MAX_BODY_SIZE);
+    expect(resolveMaxBodySize("/api/attachments/")).toBe(DEFAULT_UPLOAD_MAX_BODY_SIZE);
+    expect(resolveMaxBodySize("/api/attachments")).toBe(DEFAULT_UPLOAD_MAX_BODY_SIZE);
+  });
+
+  it("per-route overrides work for custom routes", () => {
+    const { PER_ROUTE_MAX_BODY_SIZES, resolveMaxBodySize } = await import("./http.ts");
+    expect(PER_ROUTE_MAX_BODY_SIZES.size).toBeGreaterThanOrEqual(1);
+    expect(resolveMaxBodySize("/api/attachments/test.pdf")).toBe(50 * 1024 * 1024);
+  });
+
+  it("withBodySizeLimit is a function", () => {
+    const { withBodySizeLimit } = await import("./http.ts");
+    expect(typeof withBodySizeLimit).toBe("function");
+  });
+
+  it("all required exports are present", () => {
+    const mod = await import("./http.ts");
+    expect(mod.withBodySizeLimit).toBeDefined();
+    expect(mod.resolveMaxBodySize).toBeDefined();
+    expect(mod.DEFAULT_MAX_BODY_SIZE).toBeDefined();
+    expect(mod.DEFAULT_UPLOAD_MAX_BODY_SIZE).toBeDefined();
+    expect(mod.PER_ROUTE_MAX_BODY_SIZES).toBeDefined();
+    expect(mod.UPLOAD_ROUTE_PATTERNS).toBeDefined();
+  });
+});
