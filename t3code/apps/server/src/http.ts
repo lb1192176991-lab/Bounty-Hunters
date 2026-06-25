@@ -45,6 +45,101 @@ export const browserApiCorsLayer = HttpRouter.cors({
   maxAge: 600,
 });
 
+// ── Request Body Size Limiting ──────────────────────────────
+
+/** Default max body size for regular requests: 10 MB */
+export const DEFAULT_MAX_BODY_SIZE = 10 * 1024 * 1024;
+
+/** Default max body size for upload/file routes: 50 MB */
+export const DEFAULT_UPLOAD_MAX_BODY_SIZE = 50 * 1024 * 1024;
+
+/** Route prefixes that allow larger body sizes. */
+export const UPLOAD_ROUTE_PATTERNS: ReadonlyArray<string> = [
+  ATTACHMENTS_ROUTE_PREFIX,
+];
+
+/**
+ * Per-route max body size overrides. Keyed by path prefix (string).
+ * The first matching prefix wins; falls back to DEFAULT_MAX_BODY_SIZE.
+ */
+export const PER_ROUTE_MAX_BODY_SIZES: ReadonlyMap<string, number> = new Map(
+  UPLOAD_ROUTE_PATTERNS.map((p) => [p, DEFAULT_UPLOAD_MAX_BODY_SIZE]),
+);
+
+/**
+ * Resolve the maximum allowed body size for a given request pathname.
+ * Checks per-route overrides first, then returns the global default.
+ */
+export function resolveMaxBodySize(pathname: string): number {
+  for (const [prefix, limit] of PER_ROUTE_MAX_BODY_SIZES) {
+    if (pathname.startsWith(prefix)) {
+      return limit;
+    }
+  }
+  return DEFAULT_MAX_BODY_SIZE;
+}
+
+class RequestBodyTooLarge {
+  readonly _tag = "RequestBodyTooLarge";
+  constructor(
+    readonly limit: number,
+    readonly received: number,
+  ) {}
+}
+
+/**
+ * Middleware that checks `Content-Length` against the configured body size limit
+ * **before** the inner handler runs, returning 413 if exceeded.
+ *
+ * @param self - The inner handler effect
+ * @param routeMaxBodySize - Optional per-route override
+ */
+export const withBodySizeLimit = <A, E, R>(
+  self: Effect.Effect<A, E, R>,
+  routeMaxBodySize?: number,
+): Effect.Effect<
+  A | HttpServerResponse.HttpServerResponse,
+  E | RequestBodyTooLarge,
+  R | HttpServerRequest.HttpServerRequest
+> =>
+  Effect.gen(function* () {
+    const request = yield* HttpServerRequest.HttpServerRequest;
+    const url = HttpServerRequest.toURL(request);
+    const pathname = url?.pathname ?? "/";
+    const limit = routeMaxBodySize ?? resolveMaxBodySize(pathname);
+
+    const contentLengthHeader = request.headers["content-length"];
+    if (typeof contentLengthHeader === "string") {
+      const contentLength = Number.parseInt(contentLengthHeader, 10);
+      if (Number.isFinite(contentLength) && contentLength > limit) {
+        return yield* new RequestBodyTooLarge(limit, contentLength);
+      }
+    }
+
+    return yield* self;
+  }).pipe(
+    Effect.flatten,
+    Effect.catchTag("RequestBodyTooLarge", (error) =>
+      Effect.succeed(
+        HttpServerResponse.jsonUnsafe(
+          {
+            error: "Request body too large",
+            limit: error.limit,
+            received: error.received,
+          },
+          {
+            status: 413,
+            headers: {
+              ...browserApiCorsHeaders,
+              "X-Max-Body-Size": String(error.limit),
+            },
+          },
+        ),
+      ),
+    ),
+  );
+
+
 export function isLoopbackHostname(hostname: string): boolean {
   const normalizedHostname = hostname
     .trim()
