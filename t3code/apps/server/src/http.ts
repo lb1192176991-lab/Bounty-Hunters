@@ -1,6 +1,7 @@
 import Mime from "@effect/platform-node/Mime";
 import { decodeOtlpTraceRecords } from "@t3tools/shared/observability";
 import * as Data from "effect/Data";
+import { ConfigError } from "./errors.ts";
 import * as Effect from "effect/Effect";
 import * as FileSystem from "effect/FileSystem";
 import * as Option from "effect/Option";
@@ -81,10 +82,9 @@ export const serverEnvironmentRouteLayer = HttpRouter.add(
   }),
 );
 
-class DecodeOtlpTraceRecordsError extends Data.TaggedError("DecodeOtlpTraceRecordsError")<{
-  readonly cause: unknown;
-  readonly bodyJson: OtlpTracer.TraceData;
-}> {}
+class DecodeOtlpTraceRecordsError extends ConfigError {
+  readonly bodyJson!: OtlpTracer.TraceData;
+}
 
 export const otlpTracesProxyRouteLayer = HttpRouter.add(
   "POST",
