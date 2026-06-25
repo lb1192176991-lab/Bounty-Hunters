@@ -8,6 +8,7 @@ import {
   ThreadId,
 } from "@t3tools/contracts";
 import * as Data from "effect/Data";
+import { ConfigError } from "./errors.ts";
 import * as Deferred from "effect/Deferred";
 import * as Effect from "effect/Effect";
 import * as Exit from "effect/Exit";
@@ -40,10 +41,7 @@ import {
   issueHeadlessServeAccessInfo,
 } from "./startupAccess.ts";
 
-export class ServerRuntimeStartupError extends Data.TaggedError("ServerRuntimeStartupError")<{
-  readonly message: string;
-  readonly cause?: unknown;
-}> {}
+export class ServerRuntimeStartupError extends ConfigError {}
 
 export interface ServerRuntimeStartupShape {
   readonly awaitCommandReady: Effect.Effect<void, ServerRuntimeStartupError>;
